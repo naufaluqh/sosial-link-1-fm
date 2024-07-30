@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: aliceblue;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: hsl(0, 0%, 8%);
+}
+
+.card {
+  width: 330px;
+  background-color: hsl(0, 0%, 12%);
+  padding: 25px 15px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.profile {
+  margin: 20px auto;
+}
+
+h1 {
+  font-size: 26px;
+  font-weight: 400;
+  color: hsl(0, 0%, 100%);
+}
+
+h5 {
+  color: hsl(75, 94%, 57%);
+  font-weight: 700;
+}
+
+p {
+  margin: 15px auto;
+  color: hsl(0, 4%, 80%);
+  font-size: 14px;
+}
+
+.btn-list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn-list button {
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  border-radius: 3px;
+  margin: 5px auto;
+  padding: 8px;
+  width: 80%;
+  font-weight: 600;
+}
+
+.attribution {
+  color: aliceblue;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 39%, 53%);
+}
