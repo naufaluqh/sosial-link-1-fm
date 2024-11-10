@@ -12,12 +12,13 @@ body {
   align-items: center;
   flex-direction: column;
   height: 100vh;
-  background-color: hsl(0, 0%, 8%);
+  background-color: #fff;
 }
 
 .card {
   width: 330px;
-  background-color: hsl(0, 0%, 12%);
+  background: #edf2fc;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
   padding: 25px 15px;
   text-align: center;
   border-radius: 10px;
@@ -35,19 +36,20 @@ img {
 }
 
 h1 {
+  color: #333;
   font-size: 26px;
   font-weight: 400;
-  color: hsl(0, 0%, 100%);
 }
 
 h5 {
-  color: hsl(75, 94%, 57%);
+  color: #e63946;
+
   font-weight: 700;
 }
 
 p {
   margin: 15px auto;
-  color: hsl(0, 4%, 80%);
+  color: hsl(0, 4%, 40%);
   font-size: 14px;
 }
 
@@ -55,24 +57,30 @@ p {
   display: flex;
   align-items: center;
   flex-direction: column;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.btn-list a {
+  display: inline-block;
+  width: 100%;
+  max-width: 200px;
+  text-decoration: none;
 }
 
 .btn-list button {
-  background-color: hsl(0, 0%, 20%);
-  color: hsl(0, 0%, 100%);
+  background-color: #555555;
+  color: #ffffff;
   border: none;
-  border-radius: 3px;
-  margin: 5px auto;
-  padding: 8px;
-  width: 80%;
+  border-radius: 5px;
+  padding: 8px 16px;
+  width: 100%;
   font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.attribution {
-  color: aliceblue;
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 39%, 53%);
+.btn-list button:hover {
+  background-color: #e63946;
+  color: #ffffff;
 }
